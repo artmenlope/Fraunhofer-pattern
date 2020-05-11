@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun May 10 23:05:26 2020
+Created on Sun May 10 20:05:26 2020
 
 @author: artmenlope
 """
@@ -39,7 +39,7 @@ Ix = np.abs(Fraunhoffer_2rect(x, 0, z, l, w, h, d))**2
 Iy = np.abs(Fraunhoffer_2rect(0, y, z, l, w, h, d))**2
 
 # Normalized.
-In = I/np.max(I)
+In  = I/np.max(I)
 Inx = Ix/np.max(Ix)
 Iny = Iy/np.max(Iy)
 
