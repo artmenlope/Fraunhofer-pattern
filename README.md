@@ -9,7 +9,7 @@ Use a Matplotlib gridspec to plot the Fraunhofer pattern of a 2 rectangle apertu
 
 
 
-When executed, the Python 3 script <i>Fraunhofer-difraction.py</i> will produce the following output:
+When executed, the Python 3 script [_Fraunhofer-difraction.py_](https://github.com/artmenlope/Fraunhofer-pattern/blob/master/Fraunhofer-difraction.py) will produce the following output:
 
 
 
