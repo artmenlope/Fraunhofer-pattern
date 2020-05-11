@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def Fraunhoffer_2rect(xz, yz, z, l, w, h, d):
+def Fraunhofer_2rect(xz, yz, z, l, w, h, d):
     
     """Fraunhofer pattern of a 2 rectangle aperture."""
     
@@ -34,9 +34,9 @@ xz, yz = np.meshgrid(x, y)
 z  = 1
 
 # Calculate the pattern on the plane and on the x and y axis.
-I  = np.abs(Fraunhoffer_2rect(xz, yz, z, l, w, h, d))**2
-Ix = np.abs(Fraunhoffer_2rect(x, 0, z, l, w, h, d))**2
-Iy = np.abs(Fraunhoffer_2rect(0, y, z, l, w, h, d))**2
+I  = np.abs(Fraunhofer_2rect(xz, yz, z, l, w, h, d))**2
+Ix = np.abs(Fraunhofer_2rect(x, 0, z, l, w, h, d))**2
+Iy = np.abs(Fraunhofer_2rect(0, y, z, l, w, h, d))**2
 
 # Normalized.
 In  = I/np.max(I)
