@@ -21,14 +21,34 @@ where ![x_z](https://render.githubusercontent.com/render/math?math=x_z) and ![y_
 The plotted pattern will be given by
 
 <p align="center">
-<img src="https://render.githubusercontent.com/render/math?math=I_z(x_z%2Cy_z)%20%3D%20%7Cu_z(x_z%2Cy_z)%7C%5E2">
+<img src="https://render.githubusercontent.com/render/math?math=I_z(x_z%2Cy_z)%20%3D%20%7Cu_z(x_z%2Cy_z)%7C%5E2">.
 </p>
 
 When executed, the Python 3 script [_Fraunhofer-difraction.py_](https://github.com/artmenlope/Fraunhofer-pattern/blob/master/Fraunhofer-difraction.py) will produce the following output:
 
-
-
 <p align="center">
 <img src="https://github.com/artmenlope/Fraunhofer-pattern/blob/master/fraunhofer-difraction-output.png" width="90%">
 </p>
+
+The parameters used in this case are:
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=Z%20%3D%201"> m ,
+</p>
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=w%20%3D%200.1%20%5Ccdot%2010%5E%7B-3%7D"> m ,
+</p>
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=h%20%3D%205%20%5Ccdot%2010%5E%7B-3%7D"> m ,
+</p>
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=d%20%3D%200.7%20%5Ccdot%2010%5E%7B-3%7D"> m ,
+</p>
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=%5Clambda%20%3D%20500%20%5Ccdot%2010%5E%7B-9%7D"> m .
+</p>
+
+
+
+
 
