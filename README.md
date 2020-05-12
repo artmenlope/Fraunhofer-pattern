@@ -28,6 +28,8 @@ The plotted pattern will be given by
 ***
 When executed, the Python 3 script [_Fraunhofer-difraction.py_](https://github.com/artmenlope/Fraunhofer-pattern/blob/master/Fraunhofer-difraction.py) will produce the following output:
 
+&nbsp;
+
 <p align="center">
 <img src="https://github.com/artmenlope/Fraunhofer-pattern/blob/master/fraunhofer-difraction-output.png" width="100%">
 </p>
