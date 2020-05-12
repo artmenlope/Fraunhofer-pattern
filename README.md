@@ -50,7 +50,4 @@ The parameters used in this case are:
 <img src="https://render.githubusercontent.com/render/math?math=%5Clambda%20%3D%20500%20%5Ccdot%2010%5E%7B-9%7D"> m .
 </p>
 
-
-
-
-
+***
