@@ -1,5 +1,6 @@
 # Fraunhofer-pattern
 
+***
 Use a Matplotlib gridspec to plot the Fraunhofer pattern of a 2 rectangle aperture.
 
 
@@ -7,7 +8,7 @@ Use a Matplotlib gridspec to plot the Fraunhofer pattern of a 2 rectangle apertu
 <img src="https://github.com/artmenlope/Fraunhofer-pattern/blob/master/drawing.png" width="20%">
 </p>
 
-
+***
 The used solution is
 
 <!-- Note: For Latex formulas in Github's Markdown see https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b and the app at https://alexanderrodin.com/github-latex-markdown/ -->
@@ -24,6 +25,7 @@ The plotted pattern will be given by
 <img src="https://render.githubusercontent.com/render/math?math=I_z(x_z%2Cy_z)%20%3D%20%7Cu_z(x_z%2Cy_z)%7C%5E2">.
 </p>
 
+***
 When executed, the Python 3 script [_Fraunhofer-difraction.py_](https://github.com/artmenlope/Fraunhofer-pattern/blob/master/Fraunhofer-difraction.py) will produce the following output:
 
 <p align="center">
