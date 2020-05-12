@@ -9,7 +9,7 @@ Use a Matplotlib gridspec to plot the Fraunhofer pattern of a 2 rectangle apertu
 </p>
 
 ***
-The used solution is
+The used solution (not exact; might be wrong) is
 
 <!-- Note: For Latex formulas in Github's Markdown see https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b and the app at https://alexanderrodin.com/github-latex-markdown/ -->
 
