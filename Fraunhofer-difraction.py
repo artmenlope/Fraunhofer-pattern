@@ -13,7 +13,7 @@ def Fraunhofer_2rect(xz, yz, z, l, w, h, d):
     
     """Fraunhofer pattern of a 2 rectangle aperture."""
     
-    head_term = np.exp(1j*np.pi/(l*z)*(xz**2+yz**2))
+    head_term = np.exp(1j*2*np.pi/(l)*z)*np.exp(1j*np.pi/(l*z)*(xz**2+yz**2))
     tail_term = 4*h*w * np.sinc(2*xz/(l*z)*w) * np.cos(2*np.pi*xz/(l*z)*d) * np.sinc(yz/(l*z)*h)
   
     return head_term * tail_term
@@ -24,7 +24,7 @@ w = 0.1e-3 # Width of the rectangles.
 h = 5e-3   # Height of the rectangles.
 d = 0.7e-3 # Distance between the centers of both rectangles.
 l = 500e-9 # Light's wavelength.
-N = 5000   # Number of bins on each axis.
+N = 1000   # Number of bins on each axis.
 
 xlim = ((2*d+w+20*d)/2) # Modify as desired.
 ylim = (h/4)
@@ -39,7 +39,7 @@ Ix = np.abs(Fraunhofer_2rect(x, 0, z, l, w, h, d))**2
 Iy = np.abs(Fraunhofer_2rect(0, y, z, l, w, h, d))**2
 
 # Normalized.
-In  = I/np.max(I)
+In = I/np.max(I)
 Inx = Ix/np.max(Ix)
 Iny = Iy/np.max(Iy)
 
@@ -59,7 +59,7 @@ heights = [1,1.5]
 
 # Create the figure.
 fig = plt.figure(figsize=(16,7))
-fig.suptitle("Normalized Fraunhofer pattern at $z={}$".format(z), fontsize=20)
+fig.suptitle("Normalized Fraunhofer pattern at $z={}$ m".format(z), fontsize=20)
 
 # Make the gridspec.
 gs = fig.add_gridspec(ncols=2, nrows=2, 
@@ -79,8 +79,8 @@ ax_top.set_ylabel("$|u_z(x_z,0)|^2$ (normalized)", fontsize=14)
 ax_top.axes.xaxis.set_ticks([]) # Hide x axis text ticks.
 
 # Central subplot texts.
-ax_central.set_xlabel("$x_z$", fontsize=14)
-ax_central.set_ylabel("$y_z$", fontsize=14)
+ax_central.set_xlabel("$x_z$ (m)", fontsize=14)
+ax_central.set_ylabel("$y_z$ (m)", fontsize=14)
 
 # Right subplot texts.
 ax_right.set_xlabel("$|u_z(0,y_z)|^2$ (normalized)", fontsize=14)
