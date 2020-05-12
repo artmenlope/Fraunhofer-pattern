@@ -5,7 +5,7 @@ Use a Matplotlib gridspec to plot the Fraunhofer pattern of a 2 rectangle apertu
 
 
 <p align="center">
-<img src="https://github.com/artmenlope/Fraunhofer-pattern/blob/master/drawing.png" width="20%">
+<img src="https://github.com/artmenlope/Fraunhofer-pattern/blob/master/drawing.png" width="25%">
 </p>
 
 ***
@@ -29,7 +29,7 @@ The plotted pattern will be given by
 When executed, the Python 3 script [_Fraunhofer-difraction.py_](https://github.com/artmenlope/Fraunhofer-pattern/blob/master/Fraunhofer-difraction.py) will produce the following output:
 
 <p align="center">
-<img src="https://github.com/artmenlope/Fraunhofer-pattern/blob/master/fraunhofer-difraction-output.png" width="90%">
+<img src="https://github.com/artmenlope/Fraunhofer-pattern/blob/master/fraunhofer-difraction-output.png" width="100%">
 </p>
 
 The parameters used in this case are:
